@@ -4,3 +4,5 @@
 - **Phones**
 - **PCs**
 - **Consoles**
+
+**Suppored version: 1.21.40**

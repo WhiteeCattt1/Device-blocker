@@ -1,0 +1,31 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Device blocker",
+		"description": "This addon kicks a player who joins a banned device!",
+		"uuid": "5b17766f-441d-4b4e-8a49-f24378be7252",
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 21, 40 ]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "1e4a816a-e4f7-4cb3-ab31-9f5c51174765",
+			"version": "1.4.0-beta"
+		}
+	],
+	"metadata": {
+		"authors": ["WhiteeCattt"],
+		"license": "MIT",
+		"url": "https://github.com/WhiteeCattt1/Device-blocker"
+	},
+	"dependencies": [
+		{
+			"description": "@minecraft/server module dependency",
+			"module_name": "@minecraft/server",
+			"version": "1.16.0-beta"
+		}
+	]
+}
